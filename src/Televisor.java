@@ -1,12 +1,12 @@
 public class Televisor {
     private boolean status = false;
 
-    public void turnOn(boolean status){
-        this.status = status;
+    public void turnOn(){
+        status = true;
     }
 
-    public void turnOff(boolean status){
-        this.status = status;
+    public void turnOff(){
+        status = false;
     }
 
     public boolean showStatus() {
