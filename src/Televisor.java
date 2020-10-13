@@ -1,5 +1,5 @@
 public class Televisor {
-    private boolean status = false;
+    private boolean status;
 
     public void turnOn(){
         status = true;
@@ -9,7 +9,7 @@ public class Televisor {
         status = false;
     }
 
-    public boolean showStatus() {
-        return status;
+    public void showStatus() {
+        System.out.println(status);
     }
 }
